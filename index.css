@@ -1,10 +1,20 @@
-body, nav, header{
+*{
+  box-sizing:border-box;
+}
+
+img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+body, nav,header {
   background: white;
   font-family: "Times New Roman", Times, serif;
 }
 body {
   margin:0;
-}
+  }
 nav {
   margin:0;
   padding:0;
@@ -22,11 +32,11 @@ nav {
   background-image: url(https://uploads.onecompiler.io/44mzetgvy/44nd8qnqb/1000023181.png);
   background-size: cover;
   background-position: left center;
-position:relative;
+  position:relative;
 }
 
 /*Заглавна снимка на компютър*/
-   @media (min-width: 600px) {
+@media (min-width: 600px) {
   .hero {
     background-image: url(https://uploads.onecompiler.io/44mzetgvy/44nd8qnqb/1000023098.jpg);
     background-position: center;
@@ -39,7 +49,7 @@ position:relative;
 
 
 /*Заглавие на телефон*/
-
+@media (max-width:599px){
 
 .hero h1 {
   color: white;
@@ -52,21 +62,21 @@ position:relative;
   left: 50%;
   transform: translate(-50%,-50%);
 }
+}
 
-/*Заглавие на компютър*/
 @media (min-width:600px){
-.hero h1 {
-  color:white;
-  font-size: 85px;
-  font-weight: bold;
-  text-align: center;
-  margin:0;
-  position:absolute;
-  left:50%;
-top:50%;
-  transform:translate(-50%,-50%);
-}
-}
+  .hero h1 {
+ color: white;
+  font-size:85px;
+  font-weight:bold;
+  text-align:center;
+    margin:0;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    }
+  }
 /*Меню на телефон*/
 @media (max-width:599px){
 .top-bar {
@@ -84,7 +94,7 @@ top:50%;
 
   z-index: 9999;
 }
-  }
+}
 @media (min-width:600px){
   .top-bar {
     position:fixed;
@@ -147,185 +157,108 @@ top:50%;
 /*Меню на компютър*/
 
 @media (min-width: 600px) {
-  .menu {
-    max-height: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-    text-align: center;
-    background: black;
-    z-index:1000;
-    width: 100%;
-  }
-/*към менюто на компютър*/
-  .menu a {
-    background: transparent;
-    border: none;
-    color: white;
-    text-decoration:none;
-    font-size:30px;
+  
+   .menu {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* 🔥 важно */
+     background:black;
   }
 
+/*към менюто на компютър*/
+  .menu a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 15px 20px;
+
+  color: white;
+  text-decoration: none;
+
+  height: 100%;
+  }
   .menu-icon {
     display: none;
   }
 }
 /*Текст на компютър*/
 @media (min-width: 600px){
-.nachalo {
+.istoriq {
   position: relative;
+  padding-left:30px;
+  padding-right:30px;
   font-size: clamp(26px, 2vw, 34px);
-  padding-left: 30px;
-  padding-right: 30px;
+  line-height:2;
     }
   #purvi {
     padding-top:50px;
   }
 }
 
-li {
-  line-height: 2;
-  font-size: clamp(26px, 2vw, 34px);
-}
-
 /*Текст на телефон*/
-@media (max-width:599px) {
- .nachalo {
-   font-size:17px;
-   padding-left:15px;
-   padding-right:15px;
-   line-height:2;
-}
-  li {
-    font-size:17px;
-    line-height:2;
-    }
-}
-
-/*Към наса на компютър*/
-@media (min-width: 600px) {
-
-.conteyner {
-  display: flex;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.lqva {
-  flex:7;
-}
-
-.dqsna {
-  flex:3;
-  padding-right:30px;
-}
-
-.put {
-  width:100%;
-}
-
-.klikni {
-  width:100%;
-}
-
-#poqsneniq {
-  text-align: center;
-}
-  .nov {
-    font-size: clamp(26px, 2vw, 34px);
-  }
-}
-
-
-/*Към наса на телефон*/
 
 @media (max-width:599px){
-.conteyner{
-  width:100%;
-  }
-.lqva {
-  width:100%;
-  }
-.dqsna {
-  width:100%;
-  content-align:center;
-    }
-.put {
-  width:100%;
-  }
-.klikni{
-  width:50%;
-  display:block;
-  margin:0 auto;
-  }
-#poqsneniq {
-  text-align: center;
-  font-size: 17px;
-}
+.istoriq {
+  font-size:17px;
+  padding-left:15px;
+  padding-right:15px;
+  line-height:2;}
 }
 
-.dolu{
-  background-image:url("https://uploads.onecompiler.io/44mzetgvy/44nd8qnqb/1000023633.png");
-    height:200px;
-  width:100%;
-  margin-top:100px;
-  background-size:cover;
-  background-position:center;
-    /* вертикално */
-  text-align: center;
-  position:relative;
-}
-@media (max-width:599px){
-.dolu h2 {
-  color: white;
-  font-size:25px;
-  text-align:center;
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
-  width:80%;
-  }
-}
 @media (min-width:600px){
-  .dolu h2 {
-  color:white;
-  font-size:40px;
-    text-align:center;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    width:80%;
-    }
+
+.normalna,
+.obratna{
+  display:flex;
+  align-items:center;
+  gap:30px;
+  padding:0 30px;
+  box-sizing:border-box;
 }
+
+.tekst,
+.tekst2{
+  width:60%;
+  box-sizing:border-box;
+}
+
+.snimka,
+.snimka2{
+  width:40%;
+  box-sizing:border-box;
+}
+
+
+.obratna{
+  flex-direction: row-reverse;
+}
+}
+@media (max-width:599px){
+
+.normalna,
+.obratna{
+  display:flex;
+  flex-direction:column;
+}
+
+.tekst,
+.tekst2,
+.snimka,
+.snimka2{
+  width:100%;
+}
+
+}
+
+  
+
+
+@media (max-width: 599px){
 
 .fon{
   position: relative;
 }
-@media (min-width:600px){
-.fon::before{
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: url("https://uploads.onecompiler.io/44mzetgvy/44nd8qnqb/1000023623.jpg");
-  background-repeat: repeat;
-  background-size: auto;
-  background-size:450px;
-  pointer-events: none;
-  z-index: 0;
-}
-
-
-
-.fon > *{
-  position: relative;
-  z-index: 1;
-}
-
-}
-@media (max-width:599px){
 
 .fon::before{
   content: "";
@@ -346,6 +279,63 @@ li {
 
 }
 
+@media (min-width:600px){
+  .fon{
+  position: relative;
+}
+
+.fon::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("https://uploads.onecompiler.io/44mzetgvy/44nd8qnqb/1000023623.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+  background-size:450px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.fon > *{
+  position: relative;
+  z-index: 1;
+}
+
+}
+
+.dolu{
+  background-image:url("https://uploads.onecompiler.io/44mzetgvy/44nd8qnqb/1000023633.png");
+    height:200px;
+  width:100%;
+  margin-top:100px;
+  background-size:cover;
+  position:relative;
+  background-position:center;
+}
+@media (max-width:599px){
+.dolu h2 {
+  color: white;
+  font-size:25px;
+  text-align:center;
+  position: relative;
+  top: 50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+    width:80%;
+  }
+}
+@media (min-width:600px){
+  .dolu h2 {
+  color:white;
+  font-size:40px;
+    text-align:center;
+    position:relative;
+    top:50%;
+      left:50%;
+    transform:translate(-50%,-50%);
+    width:80%;
+    }
+}
 .dolu h2{
   margin:0;
-}
+    }
