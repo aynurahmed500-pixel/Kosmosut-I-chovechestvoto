@@ -161,23 +161,26 @@ nav {
    .menu {
   display: flex;
   justify-content: center;
-  align-items: stretch; /* 🔥 важно */
-     background:black;
-  }
+  align-items: center;
+  flex-wrap: wrap; /* важно */
+  background: black;
+}
 
-/*към менюто на компютър*/
-  .menu a {
-  display: flex;
+.menu a {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 
-  padding: 15px 20px;
+  padding: 12px 18px;
 
   color: white;
   text-decoration: none;
 
-  height: 100%;
-  }
+  white-space: normal; /* да се чупи текста */
+  word-break: break-word;
+
+  line-height: 1.2;
+}
   .menu-icon {
     display: none;
   }
