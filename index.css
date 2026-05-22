@@ -1,4 +1,4 @@
-*{
+у*{
   box-sizing:border-box;
 }
 
@@ -164,7 +164,11 @@ nav {
   justify-content: center;
   align-items: center;
   background: black;
-}
+  
+  position: fixed;
+  top: 50px;
+    }
+
 
 .menu a {
   display: inline-flex;
