@@ -1,6 +1,13 @@
 *{
   box-sizing:border-box;
 }
+.menu {
+  outline: 2px solid red;
+}
+
+.menu a {
+  outline: 2px solid blue;
+}
 img{
   width:100%;
   height:auto;
