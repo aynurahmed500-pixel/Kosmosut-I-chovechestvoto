@@ -155,7 +155,6 @@ nav {
 }
 /*Меню на компютър*/
 
-
 @media (min-width: 600px) {
 
   .menu {
@@ -173,6 +172,8 @@ nav {
     width: 100%;
 
     padding: 8px 15px;
+
+    flex-wrap: nowrap;
   }
 
   .menu a {
@@ -180,11 +181,11 @@ nav {
     color: white;
     text-decoration: none;
 
-    font-size: clamp(28px, 1.5vw, 34px);
+    font-size: clamp(14px, 1.1vw, 18px);
 
     padding: 10px 12px;
 
-    white-space:normal;
+    white-space: normal;
 
     display: block;
   }
@@ -194,6 +195,8 @@ nav {
   }
 
 }
+
+  
 
 
 
