@@ -167,7 +167,7 @@ nav {
     justify-content: center;
     align-items: stretch;
     gap: 10px;
-
+z-index: 99999;
     background: black;
     padding: 10px 20px;
   }
@@ -180,7 +180,7 @@ nav {
     padding: 12px 18px;
     color: white;
     text-decoration: none;
-
+z-index: 99999;
     background: transparent;
 
     flex: 0 1 auto;              /* позволява нормално пренареждане */
