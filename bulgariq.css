@@ -385,3 +385,13 @@ nav {
     font-size:36px;
   }
 }
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 10px;
+}
