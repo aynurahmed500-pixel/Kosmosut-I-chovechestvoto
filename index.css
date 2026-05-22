@@ -159,42 +159,40 @@ nav {
 /*Меню на компютър*/
 
 
-  @media (min-width: 600px) {
+@media (min-width: 600px) {
 
-  .menu {
-    display: flex;
-    flex-wrap: wrap;              /* позволява пренасяне без счупване */
-    justify-content: center;
-    align-items: stretch;
-    gap: 10px;
-z-index: 99999;
-    background: black;
-    padding: 10px 20px;
-  }
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
 
-  .menu a {
-    display: flex;                /* ⭐ прави целия блок кликваем */
-    align-items: center;
-    justify-content: center;
+  background: black;
+  padding: 10px;
+}
 
-    padding: 12px 18px;
-    color: white;
-    text-decoration: none;
-z-index: 99999;
-    background: transparent;
+.menu a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    flex: 0 1 auto;              /* позволява нормално пренареждане */
-    min-height: 44px;            /* гарантира стабилна клик зона */
+  padding: 12px 18px;
 
-    white-space: normal;         /* текстът може да се чупи */
-    text-align: center;
-  }
+  color: white;
+  text-decoration: none;
 
-  .menu a:hover {
-    background: #222;
-  }
+  flex: 0 0 auto;
 
-  }
+  min-width: 120px;
+  min-height: 48px;
+
+  line-height: 1.2;
+
+  white-space: normal;
+
+  position: relative;
+}
+
   .menu-icon {
     display: none;
   }
