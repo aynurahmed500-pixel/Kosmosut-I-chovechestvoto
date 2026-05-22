@@ -184,7 +184,7 @@ nav {
 
     padding: 10px 12px;
 
-    white-space: nowrap;
+    white-space:normal;
 
     display: block;
   }
