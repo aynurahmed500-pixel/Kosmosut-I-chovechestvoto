@@ -194,19 +194,8 @@ nav {
   }
 
 }
-/*Текст на компютър*/
-@media (min-width: 600px){
-.istoriq {
-  position: relative;
-  padding-left:30px;
-  padding-right:30px;
-  font-size: clamp(26px, 2vw, 34px);
-  line-height:2;
-    }
 
-}
 
-/*Текст на телефон*/
 
 
 
