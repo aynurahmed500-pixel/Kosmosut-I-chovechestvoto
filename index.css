@@ -1,15 +1,4 @@
-*{
-  box-sizing:border-box;
-}
-.menu {
-  background: yellow !important;
-}
 
-.menu a {
-  background: lime !important;
-  color: black !important;
-  outline: 4px solid red;
-}
 img{
   width:100%;
   height:auto;
@@ -180,24 +169,20 @@ nav {
 }
 
 .menu a{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display:block;
 
-  padding: 12px 18px;
+  padding:12px 18px;
 
-  color: white;
-  text-decoration: none;
+  color:white;
+  text-decoration:none;
 
-  flex: 0 0 auto;
+  text-align:center;
 
-  min-width: 120px;
+  min-width:120px;
 
-  line-height: 1.2;
+  line-height:1.2;
 
-  white-space: normal;
-
-  position: relative;
+  white-space:normal;
 }
 
 
