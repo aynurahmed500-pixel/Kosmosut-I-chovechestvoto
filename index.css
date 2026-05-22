@@ -347,6 +347,38 @@ flex:7;
     width:80%;
     }
 }
+
+  /*Текст на компютър*/
+@media (min-width: 600px){
+.nachalo {
+  position: relative;
+  font-size: clamp(26px, 2vw, 34px);
+  padding-left: 30px;
+  padding-right: 30px;
+    }
+  #purvi {
+    padding-top:50px;
+  }
+}
+
+li {
+  line-height: 2;
+  font-size: clamp(26px, 2vw, 34px);
+}
+
+/*Текст на телефон*/
+@media (max-width:599px) {
+ .nachalo {
+   font-size:17px;
+   padding-left:15px;
+   padding-right:15px;
+   line-height:2;
+}
+  li {
+    font-size:17px;
+    line-height:2;
+    }
+}
 .dolu h2{
   margin:0;
     }
