@@ -2,11 +2,13 @@
   box-sizing:border-box;
 }
 .menu {
-  outline: 2px solid red;
+  background: yellow !important;
 }
 
 .menu a {
-  outline: 2px solid blue;
+  background: lime !important;
+  color: black !important;
+  outline: 4px solid red;
 }
 img{
   width:100%;
