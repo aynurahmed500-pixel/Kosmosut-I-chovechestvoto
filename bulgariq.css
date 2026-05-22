@@ -1,4 +1,4 @@
-*{
+p*{
   box-sizing:border-box;
 }
 
@@ -203,7 +203,7 @@ nav {
   gap:30px;
 
   /* 👇 ТОВА Е ВАЖНОТО – същите отстъпи като останалото */
-  padding:0 30px;
+  padding:0 10px;
   max-width:1200px;
   margin:0 auto;
   box-sizing:border-box;
