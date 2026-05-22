@@ -240,6 +240,32 @@ nav {
 
 }
 
+/*Към наса на телефон*/
+
+@media (max-width:599px){
+.conteyner{
+  width:100%;
+  }
+.lqva {
+  width:100%;
+  }
+.dqsna {
+  width:100%;
+  content-align:center;
+    }
+.put {
+  width:100%;
+  }
+.klikni{
+  width:50%;
+  display:block;
+  margin:0 auto;
+  }
+#poqsneniq {
+  text-align: center;
+  font-size: 17px;
+}
+}
   
 
 
