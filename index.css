@@ -1,9 +1,6 @@
 *{
   box-sizing:border-box;
 }
-* {
-  outline: 1px solid rgba(255,0,0,0.2);
-}
 img{
   width:100%;
   height:auto;
@@ -163,41 +160,27 @@ nav {
 
 @media (min-width: 600px) {
 
-.menu{
+.menu {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  align-items: stretch;
-
+  align-items: center;
+  flex-wrap: wrap;
   background: black;
   padding: 10px;
 }
 
-.menu a{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+.menu a {
+  display: inline-block;
   padding: 12px 18px;
-
   color: white;
   text-decoration: none;
-
-  flex: 0 0 auto;
-
-  min-width: 120px;
-  min-height: 48px;
-
-  line-height: 1.2;
-
-  white-space: normal;
-
-  position: relative;
+  white-space: nowrap;
 }
 
-  .menu-icon {
-    display: none;
-  }
+.menu-icon {
+  display: none;
+}
+
 }
 /*Текст на компютър*/
 @media (min-width: 600px){
