@@ -159,22 +159,39 @@ nav {
 
 
 @media (min-width: 600px) {
-.menu {
+
+.menu{
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+
   background: black;
   padding: 10px;
 }
 
-.menu a {
-  display: block;
+.menu a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   padding: 12px 18px;
+
   color: white;
   text-decoration: none;
-  text-align: center;
+
+  flex: 0 0 auto;
+
   min-width: 120px;
+  min-height: 48px;
+
+  line-height: 1.2;
+
+  white-space: normal;
+
+  position: relative;
 }
+
 
 .menu-icon {
   display: none;
