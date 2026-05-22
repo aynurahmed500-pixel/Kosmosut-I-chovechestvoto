@@ -240,6 +240,24 @@ nav {
 
 }
 
+
+@media (min-width:600px){
+
+.conteyner{
+  display:flex;
+  gap:30px;
+  align-items:flex-start;
+}
+
+.lqva{
+  width:70%;
+}
+
+.dqsna{
+  width:30%;
+}
+
+}
 /*Към наса на телефон*/
 
 @media (max-width:599px){
