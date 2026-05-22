@@ -1,4 +1,4 @@
-у*{
+*{
   box-sizing:border-box;
 }
 
@@ -156,33 +156,43 @@ nav {
 }
 /*Меню на компютър*/
 
-@media (min-width: 600px) {
-  
+
+  @media (min-width: 600px) {
+
   .menu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background: black;
-  
-  position: fixed;
-  top: 50px;
-    }
+    display: flex;
+    flex-wrap: wrap;              /* позволява пренасяне без счупване */
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
 
+    background: black;
+    padding: 10px 20px;
+  }
 
-.menu a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  .menu a {
+    display: flex;                /* ⭐ прави целия блок кликваем */
+    align-items: center;
+    justify-content: center;
 
-  padding: 12px 16px;
+    padding: 12px 18px;
+    color: white;
+    text-decoration: none;
 
-  color: white;
-  text-decoration: none;
+    background: transparent;
 
-  white-space: normal;
-  line-height: 1.2;
-}
+    flex: 0 1 auto;              /* позволява нормално пренареждане */
+    min-height: 44px;            /* гарантира стабилна клик зона */
+
+    white-space: normal;         /* текстът може да се чупи */
+    text-align: center;
+  }
+
+  .menu a:hover {
+    background: #222;
+  }
+
+  }
   .menu-icon {
     display: none;
   }
