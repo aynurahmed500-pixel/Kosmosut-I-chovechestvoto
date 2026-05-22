@@ -158,37 +158,42 @@ nav {
 
 @media (min-width: 600px) {
 
-.menu{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  .menu {
+    max-height: none;
 
-  background: black;
-  padding: 10px;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-.menu a{
-  display:block;
+    gap: 8px;
 
-  padding:12px 18px;
+    background: black;
 
-  color:white;
-  text-decoration:none;
+    width: 100%;
 
-  text-align:center;
+    padding: 8px 15px;
 
-  min-width:120px;
+    flex-wrap: nowrap;
+  }
 
-  line-height:1.2;
+  .menu a {
 
-  white-space:normal;
-}
+    color: white;
+    text-decoration: none;
 
+    font-size: clamp(14px, 1.1vw, 18px);
 
-.menu-icon {
-  display: none;
-}
+    padding: 10px 12px;
+
+    white-space: nowrap;
+
+    display: block;
+  }
+
+  .menu-icon {
+    display: none;
+  }
 
 }
 /*Текст на компютър*/
