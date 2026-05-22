@@ -210,13 +210,7 @@ nav {
 
 /*Текст на телефон*/
 
-@media (max-width:599px){
-.istoriq {
-  font-size:17px;
-  padding-left:15px;
-  padding-right:15px;
-  line-height:2;}
-}
+
 
 
 
