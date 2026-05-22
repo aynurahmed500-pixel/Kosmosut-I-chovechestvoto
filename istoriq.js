@@ -1,7 +1,4 @@
-function showTime() {
-	document.getElementById('currentTime').innerHTML = new Date().toUTCString();
+function toggleMenu() {
+  var menu = document.getElementById("menu");
+  menu.classList.toggle("active");
 }
-showTime();
-setInterval(function () {
-	showTime();
-}, 1000);
