@@ -430,3 +430,13 @@ font-size: clamp(26px,2vw,34px);
 }
 
 }
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 10px;
+}
