@@ -158,11 +158,11 @@ nav {
 
 @media (min-width: 600px) {
   
-   .menu {
+  .menu {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; /* важно */
   background: black;
 }
 
@@ -171,14 +171,12 @@ nav {
   align-items: center;
   justify-content: center;
 
-  padding: 12px 18px;
+  padding: 12px 16px;
 
   color: white;
   text-decoration: none;
 
-  white-space: normal; /* да се чупи текста */
-  word-break: break-word;
-
+  white-space: normal;
   line-height: 1.2;
 }
   .menu-icon {
