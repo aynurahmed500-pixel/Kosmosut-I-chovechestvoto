@@ -197,14 +197,20 @@ nav {
     font-size:17px;
     padding-left:15px;
     padding-right:15px;
+  padding-left: 10px;
+  padding-right: 10px;
+     
   }
 }
 
 @media (min-width:600px){
   .istoriq {
-    font-size: clamp(26px, 2vw, 34px);
+    font-size: clamp(24px, 1.2vw, 32px);
     padding-left:30px;
     padding-right:30px;
+  padding-left: 10px;
+  padding-right: 10px;
+
   }
 }
 
@@ -221,7 +227,7 @@ li {
 }
 
 @media (min-width:600px){
-  li { font-size: clamp(26px, 2vw, 34px); }
+  li { font-size: clamp(24px, 1.2vw, 32px); }
 }
 
 /* =======================
@@ -329,3 +335,12 @@ li {
 @media (min-width:600px){
   .dolu h2{ font-size:40px; color:white; }
 }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 10px;
+}
+
