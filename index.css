@@ -223,22 +223,7 @@ nav {
 }
 
 
-@media (max-width:599px){
 
-.normalna,
-.obratna{
-  display:flex;
-  flex-direction:column;
-}
-
-.tekst,
-.tekst2,
-.snimka,
-.snimka2{
-  width:100%;
-}
-
-}
 
 
 @media (min-width:600px){
@@ -250,11 +235,11 @@ nav {
 }
 
 .lqva{
-  width:70%;
+flex:7;
 }
 
 .dqsna{
-  width:30%;
+  flex:3;
 }
 
 }
