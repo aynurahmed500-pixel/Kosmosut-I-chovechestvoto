@@ -340,3 +340,8 @@ body {
   margin: 0;
   padding: 0 10px;
 }
+
+
+.div{
+  gap: 10px !important;
+}
