@@ -619,6 +619,33 @@ document.querySelector(".otgovori").style.display = "flex";
 // RESTART QUIZ
 // --------------------
 function restartQuiz(){
+
+  document.querySelector(".quiz").innerHTML = `
+
+  <div id="quizBox">
+
+    <h2 id="broi"></h2>
+
+    <div id="timerBox">
+      ⏱ <span id="timer">13</span>
+    </div>
+
+    <h1 id="vapros"></h1>
+
+    <div class="otgovori">
+      <button class="otgovor-btn" id="btn0" onclick="proveri(0)"></button>
+      <button class="otgovor-btn" id="btn1" onclick="proveri(1)"></button>
+      <button class="otgovor-btn" id="btn2" onclick="proveri(2)"></button>
+      <button class="otgovor-btn" id="btn3" onclick="proveri(3)"></button>
+    </div>
+
+    <p id="status"></p>
+
+    <h3 id="tochki"></h3>
+
+  </div>
+  `;
+
   startQuiz();
 }
 
