@@ -601,9 +601,16 @@ function proveri(i){
 
   
   function startQuiz(){
-document.querySelector(".otgovori").style.display = "flex";
+
+  document.querySelector(".otgovori").style.display = "flex";
+
   document.getElementById("quizBox").style.display = "block";
-  document.getElementById("startQuizBtn").style.display = "none";
+
+  let startBtn = document.getElementById("startQuizBtn");
+
+  if(startBtn){
+    startBtn.style.display = "none";
+  }
 
   index = 0;
   tochki = 0;
