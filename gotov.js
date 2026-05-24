@@ -1234,7 +1234,7 @@ function endMission(){
   clearInterval(missionState.timer);
 
   document.getElementById("mission-question").innerHTML =
-    "🚀 Край на мисията!";
+    "🚀 Край на изпита!";
 
   document.getElementById("mission-answers").innerHTML = "";
 
@@ -1242,7 +1242,7 @@ function endMission(){
     `Финален резултат: ${missionState.progress}
      <br><br>
      <button id="restartBtn" onclick="restartMission()">
-       ИГРАЙ ОТНОВО
+       ОПИТАЙ ПАК
      </button>`;
 }
 
