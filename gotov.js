@@ -468,7 +468,7 @@ let index = 0;
 let tochki = 0;
 
 // таймер само за quiz
-let quizTime = 10;
+let quizTime = 13;
 let quizTimer = null;
 
 
@@ -504,7 +504,7 @@ function startQuizTimer(){
     quizTimer = null;
   }
 
-  quizTime = 10;
+  quizTime = 13;
 
   const timerEl = document.getElementById("timer");
   if (timerEl) timerEl.textContent = quizTime;
