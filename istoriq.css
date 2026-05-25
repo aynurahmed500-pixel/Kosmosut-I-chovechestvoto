@@ -343,6 +343,48 @@ body {
   margin: 0;
   padding: 0 10px;
 }
-.div{
-  gap: 10px !important;
+
+
+@media (max-width:599px){
+  .normalna,
+  .obratna{
+    flex-direction: column;
+  }
+
+  .tekst,
+  .tekst2,
+  .snimka,
+  .snimka2{
+    flex: none;
+    width: 100%;
+  }
+}
+
+@media (min-width:600px){
+
+.normalna,
+.obratna{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+/* 60% текст */
+.tekst,
+.tekst2{
+  flex: 6;
+}
+
+/* 40% снимка */
+.snimka,
+.snimka2{
+  flex: 4;
+}
+
+.snimka img,
+.snimka2 img{
+  width: 100%;
+  height: auto;
+  display: block;
+                      }
 }
