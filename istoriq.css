@@ -44,15 +44,7 @@ nav {
   position:relative;
 }
 
-@media (min-width: 600px) {
-  .hero {
-    background-image: url(https://uploads.onecompiler.io/44mzetgvy/44nd8qnqb/1000023098.jpg);
-    background-position: center;
-    height: 250px;
-    width:100%;
-    position:relative;
-    z-index:1;
-  }
+
 }
 
 /* HERO TEXT */
