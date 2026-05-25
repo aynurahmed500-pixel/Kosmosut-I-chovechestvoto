@@ -23,17 +23,7 @@ nav {
   position: relative;
 }
 
-@media (min-width: 600px) {
-  .hero {
-    background-image: url(https://i.imgur.com/WqoPRdk.jpeg);
-    background-position: center;
-    height: 250px;
-    position: relative;
-  }
-  .hero h1 {
-    font-size:80px;
-  }
-}
+
 
 .hero h1 {
   color: white;
@@ -44,6 +34,18 @@ nav {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+}
+
+@media (min-width: 600px) {
+  .hero {
+    background-image: url(https://i.imgur.com/WqoPRdk.jpeg);
+    background-position: center;
+    height: 250px;
+    position: relative;
+  }
+  .hero h1 {
+    font-size:80px;
+  }
 }
 /* =======================
    TOP BAR + MENU SYSTEM
