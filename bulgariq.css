@@ -194,7 +194,14 @@ nav {
   padding-right:15px;
   line-height:2;}
 }
-
+@media (min-width:600px){
+  .budehste {
+    font-size: clamp(24,1.4vw,24);
+    padding-left:15px;
+    padding-right:15px;
+    line-height:2;
+  }
+}
 @media (min-width:600px){
 
 .normalna,
@@ -395,4 +402,8 @@ nav {
 body {
   margin: 0;
   padding: 0 10px;
+}
+
+li {
+  line-height:1.5;
 }
