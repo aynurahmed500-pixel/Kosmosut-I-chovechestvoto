@@ -47,13 +47,6 @@ nav {
   background-position: left center;
 }
 
-/* overlay за четим текст */
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.35);
-}
 
 .hero h1 {
   color: white;
