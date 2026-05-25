@@ -201,7 +201,7 @@ nav {
 
 @media (min-width:600px){
   .budeshte {
-    font-size: clamp (24,1.2vw,34)
+    font-size: clamp (24,1.4vw,34)
       padding-left:10px;
     padding-right:10px;
     line-height:2;}
@@ -352,4 +352,8 @@ body {
 
 .div{
   gap: 10px !important;
+}
+
+li {
+  line-height:1.5;
 }
