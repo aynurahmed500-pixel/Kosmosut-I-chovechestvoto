@@ -30,6 +30,9 @@ nav {
     height: 250px;
     position: relative;
   }
+  .hero {
+    font-size:80px);
+  }
 }
 
 .hero h1 {
