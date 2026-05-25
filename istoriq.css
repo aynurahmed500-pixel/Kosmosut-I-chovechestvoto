@@ -387,4 +387,7 @@ body {
   height: auto;
   display: block;
                       }
+   .obratna {
+  flex-direction: row-reverse;
+   }
 }
