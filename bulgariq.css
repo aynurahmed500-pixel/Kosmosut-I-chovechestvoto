@@ -184,6 +184,7 @@ nav {
 
     font-size: clamp(26px, 1.5vw, 34px);
     padding: 10px 12px;
+    line-he8ght:2;
   }
 }
 @media (max-width:599px){
