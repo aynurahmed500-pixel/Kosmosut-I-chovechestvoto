@@ -195,7 +195,7 @@ nav {
   line-height:2;}
 }
 @media (min-width:600px){
-  .budehste {
+  .budeshte {
     font-size: clamp(24px,1.4vw,34px);
     padding-left:15px;
     padding-right:15px;
