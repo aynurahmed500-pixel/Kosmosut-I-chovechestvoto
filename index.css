@@ -352,7 +352,7 @@ nav {
   padding-right: 30px;
 }
 li {
-  font-size:clamp(24,1.4vw,34);
+  font-size:clamp(24px,1.4vw,34px);
 }
 #purvi { padding-top:50px; }
 }
