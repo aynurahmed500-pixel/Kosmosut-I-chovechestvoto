@@ -206,7 +206,9 @@ nav {
 
 .lqva{ flex:7; }
 .dqsna{ flex:3; }
-
+#poqsneniq {
+  font-size:clamp(24px,1.4vw,34px);
+}
 }
 
 /* =======================
@@ -345,11 +347,13 @@ nav {
 @media (min-width: 600px){
 .nachalo {
   position: relative;
-  font-size: clamp(26px, 2vw, 34px);
+  font-size: clamp(24px, 1.4vw, 34px);
   padding-left: 30px;
   padding-right: 30px;
 }
-
+li {
+  font-size:clamp(24,1.4vw,34);
+}
 #purvi { padding-top:50px; }
 }
 
@@ -360,8 +364,7 @@ nav {
   padding-right:15px;
   line-height:2;
 }
-
-li {
+{
   font-size:17px;
   line-height:2;
 }
