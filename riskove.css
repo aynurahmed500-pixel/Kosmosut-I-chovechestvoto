@@ -195,7 +195,7 @@ nav {
   position: relative;
   padding-left:30px;
   padding-right:30px;
-  font-size: clamp(26px, 2vw, 34px);
+  font-size: clamp(24px, 1.4vw, 34px);
   line-height:2;
     }
   #purvi {
