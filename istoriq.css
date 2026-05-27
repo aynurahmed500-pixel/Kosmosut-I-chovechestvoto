@@ -180,7 +180,7 @@ nav {
 
 @media (min-width:600px){
   .istoriq {
-    font-size: clamp(24px, 1.4vw, 32px);
+    font-size: clamp(24px, 1.4vw, 34px);
     padding: 20px 20px;
   }
 }
@@ -198,7 +198,7 @@ li {
 }
 
 @media (min-width:600px){
-  li { font-size: clamp(24px, 1.2vw, 32px); }
+  li { font-size: clamp(24px, 1.4vw, 34px); }
 }
 
 /* =======================
