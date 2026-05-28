@@ -35,20 +35,24 @@
 
       <h2>Свържи се, ако имаш предложения. </h2>
 
-      <form action="https://formsubmit.co/kosmosut.i.chovechestvoto@gmail.com" class="contact-form" method="POST">
+      <form action="https://formsubmit.co/kosmosut.i.chovechestvoto@gmail.com" 
+      class="contact-form" 
+      method="POST">
 
   <label for="name">Име</label>
-  <input type="text" id="name">
+  <input type="text" id="name" name="name" required>
 
   <label for="email">Имейл</label>
-  <input type="email" id="email">
+  <input type="email" id="email" name="email" required>
 
   <label for="message">Съобщение</label>
-  <textarea id="message" rows="6"></textarea>
+  <textarea id="message" name="message" rows="6" required></textarea>
 
   <button type="submit">
     Изпрати
   </button>
+
+      </form>
 
     </div>
 
